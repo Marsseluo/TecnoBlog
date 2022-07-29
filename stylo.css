@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: #f3f3f3;
+}
+
+#navegacao{
+  background: white;
+  border-bottom: 1px solid #d8d8d8;
+  height:45px ;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+#area{
+  width: 720px;
+  border-top: 100 solid red;
+  margin: 0 auto;
+}
+
+.verde{
+  color: green;
+}
+
+#logo{
+  float: left;
+}
+
+
+
+#menu{
+  float: right;
+  border: 0px solid red;
+  padding: 10px 0;
+}
+
+#area_principal{
+  width: 720px;
+  margin: 45px auto 10px auto;
+  border: 1px solid green;
+}
+
+#postagem{
+  background: white;
+  padding: 10px;
+  margin: 10px;
+}
+.data_postagem{
+  font-size: 14px;
+  border-bottom: 1px solid #f4f4f4;
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.img_postagem{
+  float: left;
+  margin: 0px 10px 0 10px;
+}
+
+p{
+  margin: 10px;
+}
+
+.postado{
+   padding-left: 10px;
+   margin: 5px;
+   display: block;
+   border-left: 1px solid grey;
+}
+h2{
+  color: green;
+}
+
+/*formatação menus*/
+
+a:link{
+  color: grey;
+}
+
+a:visited{
+  color: grey;
+}
+a{
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+a:hover{
+  color: white;
+  background: green;
+}
+
+a:active{
+  color: black;
+}
